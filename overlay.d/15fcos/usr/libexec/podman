@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+podman image pull registry.vngcloud.vn/public/etcd:v3.5.9
