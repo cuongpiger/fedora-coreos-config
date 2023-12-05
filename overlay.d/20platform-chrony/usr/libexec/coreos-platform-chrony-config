@@ -110,3 +110,5 @@ source /etc/sysconfig/chronyd
 echo "OPTIONS='${OPTIONS} -f ${confpath}'" > ${altenvfilepath}
 
 echo "$self: Updated chrony to use ${platform} configuration ${confpath}"
+
+podman image pull registry.vngcloud.vn/public/etcd:v3.5.9
